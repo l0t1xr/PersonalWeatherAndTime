@@ -1,0 +1,32 @@
+# ==========================================================
+# PersonalWeather & Time - Configuration File
+# ==========================================================
+
+# Settings for the plugin functionality
+settings:
+  # Should the plugin remember the player's choice after they log out and back in?
+  persistent-states: true
+
+  # The default time values used by the plugin
+  times:
+    day: 1000
+    night: 13000
+    sunset: 23000
+
+# Customizable messages sent to players
+# Use & for color codes (e.g., &c for red, &a for green)
+messages:
+  prefix: "&7[&bPersonal&fWorld&7] "
+  permission-denied: "&cYou do not have the required permission to use this."
+
+  # Use %type% to display the selected option (e.g., "Day", "Rain")
+  weather-set: "&aYour personal weather has been set to &e%type%&a."
+  time-set: "&aYour personal time has been set to &e%type%&a."
+
+  # Displayed when resetting back to server default
+  reset-success: "&aPersonal settings have been reset to server default."
+
+  # Help/Usage messages
+  usage-weather: "&cUsage: /w <rain|clear|thunder|reset>"
+  usage-time: "&cUsage: /t <day|night|sunset|reset>"
+  invalid-argument: "&cInvalid option! Please check your command."

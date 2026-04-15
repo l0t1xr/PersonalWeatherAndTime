@@ -1,0 +1,10 @@
+name: PersonalWeatherAndTime
+version: 1.2.0
+main: com.playerinteraction.PersonalWeather
+api-version: 1.21
+depend: [PlaceholderAPI, LuckPerms]
+commands:
+  w:
+    description: Control personal weather.
+  t:
+    description: Control personal time.
